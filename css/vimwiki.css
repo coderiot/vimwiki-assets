@@ -1,0 +1,45 @@
+body {
+    height: 100%
+}
+
+code {
+    font-size: 120%;
+}
+
+li.done0 {
+    list-style-type: none;
+}
+
+li.done4 {
+    list-style-type: none;
+}
+
+.backtotop{
+    outline: none;
+    text-decoration:none;
+    width:40px;
+    height:40px;
+    color: #0088cc;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+}
+
+.backtotop:hover{
+    outline: none;
+    text-decoration:none;
+    opacity:1.0;
+    color: #0088cc;
+}
+
+.backtotop:focus{
+    outline: none;
+    text-decoration:none;
+}
+
+.backtotop:visited{
+    outline: none;
+    text-decoration:none;
+    color: #0088cc;
+}
