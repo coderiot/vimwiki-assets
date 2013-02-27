@@ -89,6 +89,7 @@
     });
 
     $('h1').wrap('<div class="page-header" />');
+    $('h1').wrap('<div class="well well-small" />');
 
     $(document).ready(function() {
         var items = [];
@@ -131,6 +132,7 @@
         $(this).html('<code>'+$(this).html()+'</code>');
     });
     hljs.initHighlightingOnLoad();
+});
 </script>
 </body>
 </html>
