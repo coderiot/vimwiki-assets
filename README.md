@@ -3,8 +3,8 @@ Vimwiki Template
 
 # Requirements
  * Twitter Bootstrap
- * highlight.js
- * Font Awesome
+ * highlight.js 8.0
+ * Font Awesome 4.0.3
 
 # using vimwiki assets
 ```sh

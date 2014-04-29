@@ -71,7 +71,7 @@
         </div>
   </div>
 </div>
-<a href="#" class="backtotop"><i class=" icon-circle-arrow-up icon-4x"></i></a>
+<a href="#" class="backtotop"><i class="fa fa-arrow-circle-up fa-4x"></i></a>
 <!-- Footer
     ================================================== -->
 <footer class="footer">
@@ -94,7 +94,7 @@
     $(document).ready(function() {
         var items = [];
         $('h1').each(function() {
-            items.push('<li><a href="#' + this.id + '"><i class="icon-chevron-right"></i> ' + $(this).text() + '</a></li>');
+            items.push('<li><a href="#' + this.id + '"><i class="fa fa-chevron-right pull-right"></i> ' + $(this).text() + '</a></li>');
         });  // close each()
 
     $('#sidebar_list').append( items.join('') );
@@ -104,11 +104,11 @@
     });
 
     $('.done0').each(function() {
-        $(this).html('<div class="alert alert-info"><i class="icon-check-empty icon-large"></i>'+$(this).html()+'</div></li>');
+        $(this).html('<div class="alert alert-info"><i class="fa fa-check-square-o"></i>'+$(this).html()+'</div></li>');
     });
 
     $('.done4').each(function() {
-        $(this).html('<div class="alert alert-success"><i class="icon-check icon-large"></i>'+$(this).html()+'</div></li>');
+        $(this).html('<div class="alert alert-success"><i class="fa fa-square-o"></i>'+$(this).html()+'</div></li>');
     });
 
     // Fade Out Back-To-Top-Link on new page
