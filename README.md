@@ -6,6 +6,12 @@ Vimwiki Template
  * highlight.js
  * Font Awesome
 
+# using vimwiki assets
+```sh
+$ cd $HOME/vimwiki_html/
+$ git clone https://github.com/coderiot/vimwiki-assets.git assets
+```
+
 # .vimrc settings
 ```vim
 " vimwiki settings
