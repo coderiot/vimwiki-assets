@@ -23,3 +23,8 @@ let g:vimwiki_list = [{'path_html':vimwiki_html_path,
                        \ 'template_ext': '.tpl',
                        \ 'auto_export': 0}]
 ```
+
+# Font Awesome are not showing in Firefox
+open `about:config` in firefox
+
+change `security.fileuri.strict_origin_policy` from `true` to `false`
