@@ -59,6 +59,8 @@ section {
 section > .page-header,
 section > .lead {
   color: #5a5a5a;
+  border-bottom: 0px;
+  margin: 20px 0px 10px;
 }
 section > ul li {
   margin-bottom: 5px;
